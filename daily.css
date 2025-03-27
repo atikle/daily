@@ -5,7 +5,7 @@ html {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: whitesmoke;
+    background-color: aliceblue;
     color: black;
     font-family: 'Poppins', sans-serif;
     border: 0;
@@ -152,7 +152,7 @@ div.name {
     margin-top: 66px;
     font-size: 20px;
     font-weight: 700;
-    padding: 100px 10px;
+    padding: 100px 4vw;
     color: black;
     background-color: #98d9e1;
     background-image: linear-gradient(315deg, #98d9e1 0%, #d6aed6 74%);
@@ -164,7 +164,6 @@ div.name {
 .atikle-container {
     margin-top: 50px;
     padding-bottom: 50px;
-    background-color: whitesmoke;
 }
 
 .row {
@@ -172,14 +171,22 @@ div.name {
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
-    padding: 20px 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     gap: 40px;
   }
   
+  .column img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
   .column {
     flex: 30%;
+    min-width: 300px;
     /* max-width: 25%;   */
-    padding: 0px 0px;
+    padding: 10px 10px;
+    border-radius: 30px;
     background-color: azure;
   }
   
