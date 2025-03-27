@@ -5,16 +5,17 @@ html {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: aliceblue;
+    background-color: #e9ecef;
     color: black;
     font-family: 'Poppins', sans-serif;
     border: 0;
     top: 0;
 }
 
-.a {
+a {
     text-decoration: none;
     cursor: pointer;
+    color: black;
 }
 
 ::selection {
@@ -177,17 +178,17 @@ div.name {
   }
   
   .column img {
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
   }
 
   .column {
     flex: 30%;
     min-width: 300px;
-    max-width: 40%;
+    /* max-width: 25%; */
     /* padding: 10px 10px; */
-    border-radius: 30px;
-    background-color: azure;
+    border-radius: 20px;
+    background-color: #f8f9fa;
   }
   
   .column img {
@@ -213,4 +214,20 @@ div.name {
       flex: 100%;
       max-width: 100%;
     }
+  }
+
+
+  footer{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-image: url(https://atikle.github.io/resource/background/background-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .footer-container-1 {
+    width: 150px;
+    padding-top: 200px;
+    padding-left: 10vw;
   }
