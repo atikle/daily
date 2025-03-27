@@ -177,15 +177,15 @@ div.name {
   }
   
   .column img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
 
   .column {
     flex: 30%;
     min-width: 300px;
-    /* max-width: 25%;   */
-    padding: 10px 10px;
+    max-width: 40%;
+    /* padding: 10px 10px; */
     border-radius: 30px;
     background-color: azure;
   }
