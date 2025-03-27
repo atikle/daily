@@ -149,7 +149,7 @@ div.name {
 }
 
 .div-1 {
-    margin-top: 66px;
+    margin-top: 60px;
     font-size: 20px;
     font-weight: 700;
     padding: 100px 10px;
@@ -173,13 +173,13 @@ div.name {
     width: 90%;
     margin: auto;
     padding: 20px 20px;
-    gap: 20px;
+    gap: 40px;
   }
   
   .column {
     flex: 30%;
     /* max-width: 25%;   */
-    padding: 10px 10px;
+    padding: 0px 0px;
     background-color: azure;
   }
   
