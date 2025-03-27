@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+
+
+    <!-- Roboto @ Google Fonts -->
+    <!-- font-family: "Roboto", sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Poppins @ Google Fonts -->
+    <!-- font-family: 'Poppins', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Fredoka @ Google Fonts -->
+    <!-- font-family: 'Fredoka', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+
+    <!-- Ununtu @ Google Fonts -->
+    <!-- font-family: 'Ubuntu', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+
+    <!-- CSS For fade-in-out effect -->
+    <link rel="stylesheet" href="https://kyle-inc.github.io/resource/effect-fade-in-out/fade-in-out.css">
+
+    <title>atikle Daily</title>
+    <link rel="icon" href="https://atikle.github.io/resource/icon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="daily.css">
+
+    <style>
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="fadein"></div>
+    <script src="https://kyle-inc.github.io/resource/effect-fade-in-out/fade-in-out.js"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            setTimeout(function () {
+                document.getElementById("fadein").remove();
+            }, 1000);
+        };
+    </script>
+
+    <header class="navigation-header">
+
+        <nav>
+
+            <div class="name">atikle.</div>
+
+            <div class="navigation-items" id="navigation-items">
+                <a class="links" href="daily">atikle Daily</a>
+            </div>
+
+            <div class="hamburger">
+                <span id="openHam">&#9776;</span>
+                <span id="closeHam">&#x2716;</span>
+            </div>
+
+        </nav>
+
+        <script>
+            let openHam = document.querySelector('#openHam');
+            let closeHam = document.querySelector('#closeHam');
+            let navigationItems = document.querySelector('#navigation-items');
+
+            const hamburgerEvent = (navigation, close, open) => {
+                navigationItems.style.display = navigation;
+                closeHam.style.display = close;
+                openHam.style.display = open;
+            };
+
+            openHam.addEventListener('click', () => hamburgerEvent("flex", "block", "none"));
+            closeHam.addEventListener('click', () => hamburgerEvent("none", "none", "block"));
+        </script>
+
+    </header>
+
+    <div class="div-1">
+        <font class="h1"><font class="atikle">atikle</font>-Daily</font>
+        <br>
+        Got 5 minutes? Dive into some fun, insightful reads that are super easy to get.
+        <br>
+        It's atikle, gain the insights!
+    </div>
+
+    <div class="atikle-container">
+
+        <div class="row">
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/UK-Tyre-India2.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/Bumble-Tinder.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/EU-eggs.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/UK-Tyre-India2.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/Bumble-Tinder.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/EU-eggs.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/UK-Tyre-India2.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/Bumble-Tinder.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/EU-eggs.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/UK-Tyre-India2.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/Bumble-Tinder.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+            <div class="column">
+                <img src="https://cdn.finshots.app/images/2025/03/EU-eggs.jpg">
+                <div class="atikle-content">
+                    If you love finance and have a knack for storytelling, this is your chance to join Finshots. We simplify business and finance for 5,00,000+ readers every day, and now, we’re looking for someone who can break down market trends, economic policies and business stories into crisp, engaging reads.
+                </div>
+            </div>
+        </div>
+
+</div>
+
+</body>
+
+</html>
