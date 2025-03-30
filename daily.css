@@ -199,7 +199,7 @@ div.name {
 .column {
     flex: 30%;
     min-width: 300px;
-    /* max-width: 25%; */
+    max-width: 900px;
     /* padding: 10px 10px; */
     border-radius: 20px;
     background-color: #f8f9fa;
@@ -218,14 +218,14 @@ div.name {
 
 .column-heading {
     color: black;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 900;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 .column-text {
-    font-size: 18px;
-    padding: 20px 20px;
+    font-size: 17px;
+    padding: 15px 5px;
 }
 
 .column-date {
