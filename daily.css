@@ -189,7 +189,7 @@ div.name {
 .row {
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 92%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -273,26 +273,34 @@ div.name {
     border: 0px;
     border-radius: 10px;
     margin: auto;
+    cursor: pointer;
 }
 
 .page-switch-button:hover {
     background-color: whitesmoke;
 }
 
-.previous {
+.inactive {
     color: silver;
+    cursor: default;
+}
+
+.inactive:hover {
+    color: silver;
+    background-color: white;
 }
 
 .page-number {
     height: 30px;
     padding: 5px 30px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: black;
     background-color: white;
     border: 0px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .page-number:hover {
