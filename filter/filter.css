@@ -170,141 +170,71 @@ div.name {
     margin-top: 66px;
     font-size: 20px;
     font-weight: 700;
-    padding: 100px 4vw;
-    color: black;
-    background-color: #98d9e1;
-    background-image: linear-gradient(315deg, #98d9e1 0%, #d6aed6 74%);
+    padding: 100px 3vw;
+    color: whitesmoke;
+    background-color: black;
 }
 
 
 
 
 
-.atikle-container {
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 92%;
+.filter-master-container {
+    width: 90%;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    gap: 40px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
-.column {
-    flex: 30%;
-    min-width: 300px;
-    max-width: 900px;
-    /* padding: 10px 10px; */
-    border-radius: 20px;
-    background-color: #f8f9fa;
-}
-
-.column-content {
-    padding: 30px 20px;
-}
-
-.column img {
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    vertical-align: middle;
+.collapsible {
+    background-color: #333;
+    color: #f4f4f4;
+    cursor: pointer;
+    padding: 15px 15px;
     width: 100%;
-}
-
-.column-heading {
-    color: black;
+    border: none;
+    text-align: left;
+    outline: none;
     font-size: 20px;
-    font-weight: 900;
-    padding: 15px 0px;
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-.column-text {
-    font-size: 17px;
-    padding: 15px 5px;
+.collapsible:hover, .collapsible.active {
+    background-color: #222; /* Slightly darker on hover/active */
+    color: #e0e0e0;
 }
 
-.column-date {
-    color: silver;
-    font-weight: 700;
-    padding: 20px 0px;
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out; /* Smooth transition */
+    background-color: #f8f8f8; /* Very light background */
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
+.content a {
+    display: block;
+    padding: 12px 12px;
+    text-decoration: none;
+    color: #444; /* Medium dark text */
+    border-bottom: 1px solid #eee; /* Light border */
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+.content a:hover {
+    background-color: #f0f0f0; /* Slightly lighter on hover */
+    color: #222;
 }
 
-
-
-
-
-.page-switcher-bar {
-    width: 300px;
-    margin: auto;
-    padding: 20px 20px;
-    padding-bottom: 100px;
-    display: flex;
-    flex-direction: row;
+.content a:last-child {
+    border-bottom: none; /* Remove border from last item */
 }
 
-.page-switch-button {
-    width: 40px;
-    height: 40px;
-    font-size: 20px;
-    font-weight: 900;
-    color: black;
-    background-color: white;
-    border: 0px;
-    border-radius: 10px;
-    margin: auto;
-    cursor: pointer;
-}
-
-.page-switch-button:hover {
-    background-color: whitesmoke;
-}
-
-.inactive {
-    color: silver;
-    cursor: default;
-}
-
-.inactive:hover {
-    color: silver;
+.collapsible-wrapper {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: white;
 }
 
-.page-number {
-    height: 30px;
-    padding: 5px 30px;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    color: black;
-    background-color: white;
-    border: 0px;
-    border-radius: 10px;
-    cursor: pointer;
-}
 
-.page-number:hover {
-    background-color: whitesmoke;
-}
+
 
 
 footer {
